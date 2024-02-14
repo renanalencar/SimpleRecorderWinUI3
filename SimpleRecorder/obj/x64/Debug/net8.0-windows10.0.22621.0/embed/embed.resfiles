@@ -1,0 +1,7 @@
+App.xbf
+MainWindow.xbf
+ViewModels\RecordingPage.xbf
+ViewModels\SavePage.xbf
+Views\AboutDialog.xbf
+Views\MainPage.xbf
+Views\RootView.xbf

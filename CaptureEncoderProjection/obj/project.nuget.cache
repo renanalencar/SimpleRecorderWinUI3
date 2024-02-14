@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aleLXhLllO2zyYAPG7u0Hfok4eP9QEY7pMy7Q2V4RRWKGs5avUsROxXaf9iCXjFBSmA6006yHuQ7vIquBtYibg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\renan\\source\\repos\\SimpleRecorderWinUI3\\CaptureEncoderProjection\\CaptureEncoderProjection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\renan\\.nuget\\packages\\microsoft.windows.cswinrt\\2.0.7\\microsoft.windows.cswinrt.2.0.7.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.31\\microsoft.windows.sdk.net.ref.10.0.22621.31.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+		<!-- Set Platform to AnyCPU to allow consumption of the projection assembly from any architecture. -->
+		<Platform>AnyCPU</Platform>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	
+	<PropertyGroup>
+		<CsWinRTIncludes>CaptureEncoderWin32</CsWinRTIncludes>
+		<CsWinRTGeneratedFilesDir>$(OutDir)</CsWinRTGeneratedFilesDir>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<GeneratedNugetDir>.\nuget\</GeneratedNugetDir>
+		<NuspecFile>$(GeneratedNugetDir)CaptureEncoderProjection.nuspec</NuspecFile>
+		<OutputPath>$(GeneratedNugetDir)</OutputPath>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="CaptureEncoderProjection.nuspec" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Windows.CsWinRT" Version="2.0.7" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\CaptureEncoderWin32\CaptureEncoderWin32.vcxproj" />
+	</ItemGroup>
+
+</Project>

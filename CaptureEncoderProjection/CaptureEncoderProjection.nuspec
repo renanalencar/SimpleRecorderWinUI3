@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CaptureEncoderWin32</id>
+    <version>0.1.0-prerelease</version>
+    <authors>Contoso Math Inc.</authors>
+    <description>A simple component with basic math operations</description>
+    <dependencies>
+      <group targetFramework="net8.0-windows10.0.22621.0" />
+      <group targetFramework=".NETCoreApp3.0" />
+      <group targetFramework="UAP10.0" />
+      <group targetFramework=".NETFramework4.6" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!--Support .NET 6, .NET Core 3, UAP, .NET Framework 4.6, C++ -->
+    <!--Architecture-netural assemblies-->
+    <file src="..\..\_build\AnyCPU\Release\CaptureEncoderProjection\bin\CaptureEncoderProjection.dll" target="lib\net6.0-windows10.0.19041.0\CaptureEncoderProjection.dll" />
+    <file src="..\..\_build\x64\Release\CaptureEncoderWin32\bin\CaptureEncoderWin32\CaptureEncoderWin32.winmd" target="lib\netcoreapp3.0\CaptureEncoderWin32.winmd" />
+    <file src="..\..\_build\x64\Release\CaptureEncoderWin32\bin\CaptureEncoderWin32\CaptureEncoderWin32.winmd" target="lib\uap10.0\CaptureEncoderWin32.winmd" />
+    <file src="..\..\_build\x64\Release\CaptureEncoderWin32\bin\CaptureEncoderWin32\CaptureEncoderWin32.winmd" target="lib\net46\CaptureEncoderWin32.winmd" />
+    <!--Architecture-specific implementation DLLs should be copied into RID-relative folders-->
+    <file src="..\..\_build\x64\Release\CaptureEncoderWin32\bin\CaptureEncoderWin32\CaptureEncoderWin32.dll" target="runtimes\win10-x64\native\CaptureEncoderWin32.dll" />
+    <!--To support x86 and Arm64, build CaptureEncoderWin32 for those other architectures and uncomment the entries below.-->
+    <!--<file src="..\..\_build\Win32\Release\CaptureEncoderWin32\bin\CaptureEncoderWin32\CaptureEncoderWin32.dll" target="runtimes\win10-x86\native\CaptureEncoderWin32.dll" />-->
+    <!--<file src="..\..\_build\arm64\Release\CaptureEncoderWin32\bin\CaptureEncoderWin32\CaptureEncoderWin32.dll" target="runtimes\win10-arm64\native\CaptureEncoderWin32.dll" />-->
+  </files>
+</package>

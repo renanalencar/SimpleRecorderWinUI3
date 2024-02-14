@@ -1,0 +1,13 @@
+C:\Users\renan\source\repos\SimpleRecorderWinUI3\CaptureEncoderProjection\obj\Debug\net8.0-windows10.0.22621.0\CaptureEncoderProjection.csproj.AssemblyReference.cache
+C:\Users\renan\source\repos\SimpleRecorderWinUI3\CaptureEncoderProjection\obj\Debug\net8.0-windows10.0.22621.0\CaptureEncoderProjection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renan\source\repos\SimpleRecorderWinUI3\_build\AnyCPU\Debug\CaptureEncoderProjection\bin\CaptureEncoderProjection.deps.json
+C:\Users\renan\source\repos\SimpleRecorderWinUI3\_build\AnyCPU\Debug\CaptureEncoderProjection\bin\CaptureEncoderProjection.dll
+C:\Users\renan\source\repos\SimpleRecorderWinUI3\_build\AnyCPU\Debug\CaptureEncoderProjection\bin\CaptureEncoderProjection.pdb
+C:\Users\renan\source\repos\SimpleRecorderWinUI3\CaptureEncoderProjection\obj\Debug\net8.0-windows10.0.22621.0\CaptureEncoderProjection.AssemblyInfoInputs.cache
+C:\Users\renan\source\repos\SimpleRecorderWinUI3\CaptureEncoderProjection\obj\Debug\net8.0-windows10.0.22621.0\CaptureEncoderProjection.AssemblyInfo.cs
+C:\Users\renan\source\repos\SimpleRecorderWinUI3\CaptureEncoderProjection\obj\Debug\net8.0-windows10.0.22621.0\CaptureEncoderProjection.csproj.CoreCompileInputs.cache
+C:\Users\renan\source\repos\SimpleRecorderWinUI3\CaptureEncoderProjection\obj\Debug\net8.0-windows10.0.22621.0\CaptureEncoderProjection.csproj.CopyComplete
+C:\Users\renan\source\repos\SimpleRecorderWinUI3\CaptureEncoderProjection\obj\Debug\net8.0-windows10.0.22621.0\CaptureEncoderProjection.dll
+C:\Users\renan\source\repos\SimpleRecorderWinUI3\CaptureEncoderProjection\obj\Debug\net8.0-windows10.0.22621.0\refint\CaptureEncoderProjection.dll
+C:\Users\renan\source\repos\SimpleRecorderWinUI3\CaptureEncoderProjection\obj\Debug\net8.0-windows10.0.22621.0\CaptureEncoderProjection.pdb
+C:\Users\renan\source\repos\SimpleRecorderWinUI3\CaptureEncoderProjection\obj\Debug\net8.0-windows10.0.22621.0\ref\CaptureEncoderProjection.dll

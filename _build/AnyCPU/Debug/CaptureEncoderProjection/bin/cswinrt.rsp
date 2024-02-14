@@ -1,0 +1,8 @@
+-target net6.0
+-input 10.0.22621.0
+-input "C:\Users\renan\source\repos\SimpleRecorderWinUI3\_build\x64\Debug\CaptureEncoderWin32\bin\CaptureEncoderWin32\CaptureEncoderWin32.winmd"
+-output "C:\Users\renan\source\repos\SimpleRecorderWinUI3\_build\AnyCPU\Debug\CaptureEncoderProjection\bin"
+
+-exclude Windows
+-exclude Microsoft
+-include CaptureEncoderWin32

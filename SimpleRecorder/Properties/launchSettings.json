@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "SimpleRecorder (Package)": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    },
+    "SimpleRecorder (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

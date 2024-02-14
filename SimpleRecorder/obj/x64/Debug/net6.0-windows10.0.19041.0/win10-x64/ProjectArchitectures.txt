@@ -1,0 +1,1 @@
+C:\Users\renan\source\repos\SimpleRecorderWinUI3\SimpleRecorder\SimpleRecorder.csproj;x64
